@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>POST</title>
+    </head>
+
+    <body>
+        <section>
+            <div class="content">
+                <div class="title">
+                    <h1>Log-in</h1>
+                </div>
+                <form id="login" action="" method="post">
+                    <div class="user">
+                        <div class="name">
+                            <span class="empty-input">Please fill out this field</span>
+                            <div class="form-group">
+                                <i class="bi bi-person-fill"></i>
+                                <input type="text" name="name" class="inputCamp" id="u-name" required
+                                    placeholder="User Name *" aria-label="User Name *" aria-required="true">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <div class="email">
+                            <span class="empty-input">Please fill out this field</span>
+                            <div class="form-group">
+                                <i class="bi bi-envelope-at-fill"></i>
+                                <input type="email" name="email" class="inputCamp" id="e-mail" required placeholder="Email *"
+                                    aria-label="Email *" aria-required="true">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="create">
+                        <button id="btn-Create" type="button">
+                            <p>Create User</p>
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                </form>
+                <div id="user-result">
+                    <ul id="user-data">
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
