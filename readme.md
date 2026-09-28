@@ -34,6 +34,18 @@ Ejemplo del cuerpo enviado:
 
 Si la petición es correcta, la API devuelve los datos del usuario junto con un ID generado, que se muestran en la interfaz.
 
+## Conceptos practicados
+- Peticiones HTTP POST
+- fetch()
+- async / await
+- try / catch / finally
+- JSON.stringify()
+- response.json()
+- Headers HTTP
+- Códigos de estado HTTP
+- Validación de formularios
+- Manipulación del DOM
+- Manejo de errores
 
 ## Estructura
 
@@ -55,3 +67,4 @@ Clona el repositorio y abre `index.html` en el navegador. También puedes utiliz
 El proyecto utiliza [JSONPlaceholder](https://jsonplaceholder.typicode.com/), una API REST de prueba para practicar peticiones HTTP.
 
 > Nota: JSONPlaceholder simula la creación del usuario. Los datos no se almacenan realmente en un servidor persistente.
+
